@@ -11,5 +11,8 @@ deploy:
   region: ca-central-1
   app: sampletravis deployment
   env: Sampletravisdeployment-env
+  bucket_name: digitalonus
+  bucket_path: mocktest
+  cleanup: true
   on:
     branch: main
