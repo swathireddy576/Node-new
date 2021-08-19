@@ -13,6 +13,6 @@ deploy:
   env: Sampletravisdeployment-env
   bucket_name: digitalonus
   bucket_path: mocktest
-  cleanup: true
+  skip_cleanup: true
   on:
     branch: main
