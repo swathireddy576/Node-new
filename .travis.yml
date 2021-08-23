@@ -6,8 +6,8 @@ deploy:
 #Branch - Development
 - provider: elasticbeanstalk
 #Access Key and Secret Key should be stored in travis-ci.com under the byjuweb org settings for each repo.
-  access_key_id: "AKIAYQ6H6X7EHHKCEJGH"
-  secret_access_key: "vY5yOnXwvd1TMkYsKBio3Yb2WtCXS8+tTvjxZV0N"
+  access_key_id: "access key"
+  secret_access_key: "secret id"
   region: ca-central-1
   app: sampletravis deployment
   env: Sampletravisdeployment-env
